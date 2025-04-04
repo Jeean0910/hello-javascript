@@ -31,9 +31,17 @@ console.log(a);
    que haga uso de las variables utilizadas para las operaciones aritméticas*/
 //R2
 //suma asignada
-let a = 3;
-let b = 5;
-
+a += 5;
+console.log(a);
+//resta asignada
+a -= 5;
+console.log(a);
+//división asignada
+a /= 3;
+console.log(a);
+//multiplicación asignada
+a *= 3;
+console.log(a);
 // 3. Imprime 5 comparaciones verdaderas con diferentes operadores de comparación
 console.log(a != b || b > a);
 console.log(a <= b && b >= 5);
@@ -49,11 +57,13 @@ console.log(a < 2);
 console.log(b <= a);
 
 // 5. Utiliza el operador lógico and
-
+let c = 8;
+let d = 2;
+console.log(c + d == 10 && c < d);
 // 6. Utiliza el operador lógico or
-
+console.log(c + d == 10 || c < d);
 // 7. Combina ambos operadores lógicos
-
+console.log((c + d > 8 && d == 2) || c != d);
 // 8. Añade alguna negación
 
 // 9. Utiliza el operador ternario
