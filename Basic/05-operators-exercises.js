@@ -65,7 +65,7 @@ console.log(c + d == 10 || c < d);
 // 7. Combina ambos operadores lógicos
 console.log((c + d > 8 && d == 2) || c != d);
 // 8. Añade alguna negación
-
+console.log(!(c + d == 10));
 // 9. Utiliza el operador ternario
 
 // 10. Combina operadores aritméticos, de comparáción y lógicas
