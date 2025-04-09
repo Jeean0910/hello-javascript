@@ -69,3 +69,6 @@ console.log(!(c + d == 10));
 // 9. Utiliza el operador ternario
 
 // 10. Combina operadores aritméticos, de comparáción y lógicas
+let alfa = 8;
+let beta = 16;
+console.log(alfa + beta >= 3 && beta >= 16);
