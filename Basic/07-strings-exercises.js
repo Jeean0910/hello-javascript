@@ -34,7 +34,7 @@ let letter2 = "Esto es una prueba para remplazar espacios";
 console.log(letter2.replace(/ /g, "-"));
 console.log(letter2.replaceAll(" ", "-"));
 // 8. Comprueba si una cadena de texto contiene una palabra concreta
-
+console.log(letter2.includes("prueba"));
 // 9. Comprueba si dos strings son iguales
 
 // 10. Comprueba si dos strings tienen la misma longitud
