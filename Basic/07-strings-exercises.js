@@ -36,5 +36,9 @@ console.log(letter2.replaceAll(" ", "-"));
 // 8. Comprueba si una cadena de texto contiene una palabra concreta
 console.log(letter2.includes("prueba"));
 // 9. Comprueba si dos strings son iguales
+let string1 = "hola soy Juan";
+let string2 = "hola soy Jean";
+console.log(string1 === string2);
 
 // 10. Comprueba si dos strings tienen la misma longitud
+console.log(string1.length == string2.length);
