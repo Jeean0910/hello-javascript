@@ -27,7 +27,8 @@ de
 las comillas invertidas`;
 console.log(letter);
 // 6. Interpola el valor de una variable en un string
-
+let color = "café";
+console.log(`Mi color favorito es ${color}. y el tuyo?`);
 // 7. Reemplaza todos los espacios en blanco de un string por guiones
 
 // 8. Comprueba si una cadena de texto contiene una palabra concreta
