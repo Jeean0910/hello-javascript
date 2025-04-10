@@ -12,8 +12,13 @@ console.log(whatIsTheWeather + clima);
 // 2. Muestra la longitud de una cadena de texto
 console.log(whatIsTheWeather.length);
 // 3. Muestra el primer y último carácter de un string
+console.log(whatIsTheWeather[0]);
+console.log(whatIsTheWeather[17]);
 
 // 4. Convierte a mayúsculas y minúsculas un string
+let weather = "What Is the Weather Like?";
+console.log(weather.toUpperCase());
+console.log(weather.toLowerCase());
 
 // 5. Crea una cadena de texto en varias líneas
 
