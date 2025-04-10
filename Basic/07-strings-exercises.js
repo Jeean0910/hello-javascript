@@ -30,7 +30,8 @@ console.log(letter);
 let color = "café";
 console.log(`Mi color favorito es ${color}. y el tuyo?`);
 // 7. Reemplaza todos los espacios en blanco de un string por guiones
-
+let letter2 = "Esto es una prueba para remplazar espacios";
+console.log(letter2.replace(/ /g, "-"));
 // 8. Comprueba si una cadena de texto contiene una palabra concreta
 
 // 9. Comprueba si dos strings son iguales
