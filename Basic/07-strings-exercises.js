@@ -21,7 +21,11 @@ console.log(weather.toUpperCase());
 console.log(weather.toLowerCase());
 
 // 5. Crea una cadena de texto en varias líneas
-
+let letter = `esto es una prueba
+para ver la validez 
+de 
+las comillas invertidas`;
+console.log(letter);
 // 6. Interpola el valor de una variable en un string
 
 // 7. Reemplaza todos los espacios en blanco de un string por guiones
