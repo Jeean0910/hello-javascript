@@ -4,9 +4,13 @@ Vídeo: https://youtu.be/1glVfFxj8a4?t=7226
 */
 
 // 1. Concatena dos cadenas de texto
+let clima = "lluvioso.";
+let whatIsTheWeather = "Hoy el clima está ";
+
+console.log(whatIsTheWeather + clima);
 
 // 2. Muestra la longitud de una cadena de texto
-
+console.log(whatIsTheWeather.length);
 // 3. Muestra el primer y último carácter de un string
 
 // 4. Convierte a mayúsculas y minúsculas un string
