@@ -67,6 +67,6 @@ console.log((c + d > 8 && d == 2) || c != d);
 // 8. Añade alguna negación
 console.log(!(c + d == 10));
 // 9. Utiliza el operador ternario
-const estànevando = true
+const estànevando = false
 estànevando ? console.log ("si") : console.log ("no")
 // 10. Combina operadores aritméticos, de comparáción y lógicas
