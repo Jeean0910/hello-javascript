@@ -40,7 +40,9 @@ if (userage >= 18) {
 
 // 5. Usa el operador ternario para asignar el valor "adulto" o "menor" a una variable
 //    dependiendo de la edad
-
+let edad = 17;
+let tipoDePersona = edad >= 18 ? "adulto" : "menor";
+console.log(tipoDePersona);
 // 6. Muestra en que estación del año nos encontramos dependiendo del valor de una variable "mes"
 
 // 7. Muestra el número de días que tiene un mes dependiendo de la variable del ejercicio anterior
