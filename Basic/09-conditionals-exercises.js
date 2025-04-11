@@ -6,6 +6,10 @@ Vídeo: https://youtu.be/1glVfFxj8a4?t=8652
 // if/else/else if/ternaria
 
 // 1. Imprime por consola tu nombre si una variable toma su valor
+let names = "Jean";
+if (names == "Jean") {
+  console.log("Jean");
+}
 
 // 2. Imprime por consola un mensaje si el usuario y contraseña concide con unos establecidos
 
@@ -14,7 +18,7 @@ Vídeo: https://youtu.be/1glVfFxj8a4?t=8652
 // 4. Verifica si una persona puede votar o no (mayor o igual a 18) e indica cuántos años le faltan
 
 // 5. Usa el operador ternario para asignar el valor "adulto" o "menor" a una variable
-//    dependiendo de la edad 
+//    dependiendo de la edad
 
 // 6. Muestra en que estación del año nos encontramos dependiendo del valor de una variable "mes"
 
