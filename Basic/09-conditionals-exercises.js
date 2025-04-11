@@ -12,7 +12,11 @@ if (names === "Jean") {
 }
 
 // 2. Imprime por consola un mensaje si el usuario y contraseña concide con unos establecidos
-
+let user = "jean.franco.posso"
+let password = "RataBlanca_123"
+if (User === "jean.franco.posso" && password === "RataBlanca_123") {
+  console.log ("Ingreso exitoso")
+} else {console.log("Usuario o contraseña incorrectos")}
 // 3. Verifica si un número es positivo, negativo o cero e imprime un mensaje
 
 // 4. Verifica si una persona puede votar o no (mayor o igual a 18) e indica cuántos años le faltan
