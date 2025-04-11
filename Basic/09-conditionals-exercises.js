@@ -18,6 +18,11 @@ if (User === "jean.franco.posso" && password === "RataBlanca_123") {
   console.log ("Ingreso exitoso")
 } else {console.log("Usuario o contraseña incorrectos")}
 // 3. Verifica si un número es positivo, negativo o cero e imprime un mensaje
+let number = -1
+if (number >= 1) {console.log("El numero es positivo")}
+else if (number === 0) {console.log ("El nùmero es cero")}
+else {console.log("el numero es negativo")}
+let jrs= "hola"
 
 // 4. Verifica si una persona puede votar o no (mayor o igual a 18) e indica cuántos años le faltan
 
