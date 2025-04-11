@@ -7,7 +7,7 @@ Vídeo: https://youtu.be/1glVfFxj8a4?t=8652
 
 // 1. Imprime por consola tu nombre si una variable toma su valor
 let names = "Jean";
-if (names == "Jean") {
+if (names === "Jean") {
   console.log("Jean");
 }
 
