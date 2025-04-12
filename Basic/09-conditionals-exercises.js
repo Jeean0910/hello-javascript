@@ -45,17 +45,28 @@ let tipoDePersona = edad >= 18 ? "adulto" : "menor";
 console.log(tipoDePersona);
 // 6. Muestra en que estación del año nos encontramos dependiendo del valor de una variable "mes"
 let mes = "julio";
-if ((mes === "diciembre" || mes === "enero" || mes=== "febrero")) {
+if (mes === "diciembre" || mes === "enero" || mes === "febrero") {
   console.log("invierno");
-} else if ((mes === "marzo" || mes === "abril" || mes=== "mayo")) {
+} else if (mes === "marzo" || mes === "abril" || mes === "mayo") {
   console.log("primavera");
-} else if ((mes === "junio" || mes === "julio" || mes === "agosto")) {
+} else if (mes === "junio" || mes === "julio" || mes === "agosto") {
   console.log("verano");
 } else {
   console.log("otoño");
 }
 // 7. Muestra el número de días que tiene un mes dependiendo de la variable del ejercicio anterior
-
+if (mes === "febrero") {
+  console.log(28);
+} else if (
+  mes === "abril" ||
+  mes === "junio" ||
+  mes === "septiembre" ||
+  mes === "noviembre"
+) {
+  console.log(30);
+} else {
+  console.log(31);
+}
 // switch
 
 // 8. Usa un switch para imprimir un mensaje de saludo diferente dependiendo del idioma
