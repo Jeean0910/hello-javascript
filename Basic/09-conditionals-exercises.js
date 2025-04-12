@@ -67,10 +67,45 @@ if (mes === "febrero") {
 } else {
   console.log(31);
 }
+
 // switch
 
 // 8. Usa un switch para imprimir un mensaje de saludo diferente dependiendo del idioma
 
-// 9. Usa un switch para hacer de nuevo el ejercicio 6
+let idioma = "español";
+let saludo;
+switch (idioma) {
+  case "italiano":
+    saludo = "ciao";
+    break;
+  case "español":
+    saludo = "hola";
+    break;
+  case "ingles":
+    saludo = "hello";
+    break;
+  case "aleman":
+    saludo = "hallo";
+    break;
+  default:
+    saludo = "Idioma no disponible";
+}
 
+console.log(saludo);
+
+// 9. Usa un switch para hacer de nuevo el ejercicio 6
+let mes="junio"
+let estacion 
+switch (mes)
+{case "diciembre" ||"enero" || "febrero" : estacion="invierno"
+  break
+  case "marzo" || "abril" || "mayo" : estacion = "primavera"
+  break
+  case "junio" ||"julio" ||"agosto" : estacion = "verano"
+  break
+  case "septiembre" || "octubre" || "noviembre" : estacion = "otoño"
+  break 
+  default estacion = "mes no reconocido"
+}
+console.log (estacion)
 // 10. Usa un switch para hacer de nuevo el ejercicio 7
