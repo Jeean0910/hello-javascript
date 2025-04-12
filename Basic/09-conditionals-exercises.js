@@ -44,6 +44,16 @@ let edad = 17;
 let tipoDePersona = edad >= 18 ? "adulto" : "menor";
 console.log(tipoDePersona);
 // 6. Muestra en que estación del año nos encontramos dependiendo del valor de una variable "mes"
+let mes = "enero";
+if ((mes = "diciembre" || "enero" || "febrero")) {
+  console.log("invierno");
+} else if ((mes = "marzo" || "abril" || "mayo")) {
+  console.log("primavera");
+} else if ((mes = "junio" || "julio" || "agosto")) {
+  console.log("verano");
+} else {
+  console.log("otoño");
+}
 
 // 7. Muestra el número de días que tiene un mes dependiendo de la variable del ejercicio anterior
 
