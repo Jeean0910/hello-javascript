@@ -94,18 +94,59 @@ switch (idioma) {
 console.log(saludo);
 
 // 9. Usa un switch para hacer de nuevo el ejercicio 6
-let mes="junio"
-let estacion 
-switch (mes)
-{case "diciembre" ||"enero" || "febrero" : estacion="invierno"
-  break
-  case "marzo" || "abril" || "mayo" : estacion = "primavera"
-  break
-  case "junio" ||"julio" ||"agosto" : estacion = "verano"
-  break
-  case "septiembre" || "octubre" || "noviembre" : estacion = "otoño"
-  break 
-  default estacion = "mes no reconocido"
+let mes = "enero";
+let estacion;
+
+switch (mes.toLowerCase()) {
+  case "diciembre":
+  case "enero":
+  case "febrero":
+    estacion = "invierno";
+    break;
+  case "marzo":
+  case "abril":
+  case "mayo":
+    estacion = "primavera";
+    break;
+  case "junio":
+  case "julio":
+  case "agosto":
+    estacion = "verano";
+    break;
+  case "septiembre":
+  case "octubre":
+  case "noviembre":
+    estacion = "otoño";
+    break;
+  default:
+    estacion = "mes no reconocido";
 }
-console.log (estacion)
+
+console.log(estacion);
+
 // 10. Usa un switch para hacer de nuevo el ejercicio 7
+let mes = "agosto";
+let daysnumber;
+switch (mes) {
+  case "febrero":
+    daysnumber = 28;
+    break;
+  case "enero":
+  case "marzo":
+  case "mayo":
+  case "julio":
+  case "agosto":
+  case "octubre":
+  case "diciembre":
+    daysnumber = 31;
+    break;
+  case "abril":
+  case "junio":
+  case "septiembre":
+  case "noviembre":
+    daysnumber = 30;
+    break;
+  default:
+    daysnumber = "mes incorrecto";
+}
+console.log(daysnumber);
