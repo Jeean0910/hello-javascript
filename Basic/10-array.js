@@ -7,98 +7,98 @@ Vídeo: https://youtu.be/1glVfFxj8a4?t=8741
 
 // Declaración
 
-let myArray = []
-let myArray2 = new Array()
+let myArray = [];
+let myArray2 = new Array();
 
-console.log(myArray)
-console.log(myArray2)
+console.log(myArray);
+console.log(myArray2);
 
 // Inicialización
 
-myArray = [3]
-myArray2 = new Array(3)
+myArray = [3];
+myArray2 = new Array(3);
 
-console.log(myArray)
-console.log(myArray2)
+console.log(myArray);
+console.log(myArray2);
 
-myArray = [1, 2, 3, 4]
-myArray2 = new Array(1, 2, 3, 4)
+myArray = [1, 2, 3, 4];
+myArray2 = new Array(1, 2, 3, 4);
 
-console.log(myArray)
-console.log(myArray2)
+console.log(myArray);
+console.log(myArray2);
 
-myArray = ["Brais", "Moure", "mouredev", 37, true]
-myArray2 = new Array("Brais", "Moure", "mouredev", 37, true)
+myArray = ["Brais", "Moure", "mouredev", 37, true];
+myArray2 = new Array("Brais", "Moure", "mouredev", 37, true);
 
-console.log(myArray)
-console.log(myArray2)
+console.log(myArray);
+console.log(myArray2);
 
-myArray2 = new Array(3)
-myArray2[2] = "Brais"
+myArray2 = new Array(3);
+myArray2[2] = "Brais";
 // myArray2[0] = "Moure"
-myArray2[1] = "mouredev"
-myArray2[4] = "mouredev"
+myArray2[1] = "mouredev";
+myArray2[4] = "mouredev";
 
-console.log(myArray2)
+console.log(myArray2);
 
-myArray = []
-myArray[2] = "Brais"
+myArray = [];
+myArray[2] = "Brais";
 // myArray[0] = "Moure"
-myArray[1] = "mouredev"
+myArray[1] = "mouredev";
 
-console.log(myArray)
+console.log(myArray);
 
 // Métodos comunes
 
-myArray = []
+myArray = [];
 
-// push y pop
+// push y pop (suma un elemento en el array y quita el ultimo elemento del array)
 
-myArray.push("Brais")
-myArray.push("Moure")
-myArray.push("mouredev")
-myArray.push(37)
+myArray.push("Brais"); // suma "Brais" al conjunto de datos de myArray
+myArray.push("Moure");
+myArray.push("mouredev");
+myArray.push(37);
 
-console.log(myArray)
+console.log(myArray);
 
-console.log(myArray.pop()) // Elimina el último y lo devuelve
-myArray.pop()
+console.log(myArray.pop()); // Elimina el último y lo devuelve
+myArray.pop();
 
-console.log(myArray)
+console.log(myArray);
 
 // shift y unshift
 
-console.log(myArray.shift())
-console.log(myArray)
+console.log(myArray.shift());
+console.log(myArray);
 
-myArray.unshift("Brais", "mouredev")
-console.log(myArray)
+myArray.unshift("Brais", "mouredev");
+console.log(myArray);
 
 // length
 
-console.log(myArray.length)
+console.log(myArray.length);
 
 // clear
 
-myArray = []
-myArray.length = 0 // alternativa
-console.log(myArray)
+myArray = [];
+myArray.length = 0; // alternativa
+console.log(myArray);
 
 // slice
 
-myArray = ["Brais", "Moure", "mouredev", 37, true]
+myArray = ["Brais", "Moure", "mouredev", 37, true];
 
-let myNewArray = myArray.slice(1, 3)
+let myNewArray = myArray.slice(1, 3);
 
-console.log(myArray)
-console.log(myNewArray)
+console.log(myArray);
+console.log(myNewArray);
 
 // splice
 
-myArray.splice(1, 3)
-console.log(myArray)
+myArray.splice(1, 3);
+console.log(myArray);
 
-myArray = ["Brais", "Moure", "mouredev", 37, true]
+myArray = ["Brais", "Moure", "mouredev", 37, true];
 
-myArray.splice(1, 2, "Nueva entrada")
-console.log(myArray)
+myArray.splice(1, 2, "Nueva entrada");
+console.log(myArray);
