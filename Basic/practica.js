@@ -19,3 +19,48 @@ case <18:
  default: disponibilidad=console.log("Incorrecto, el valor debe ser un número")   
 
 }
+
+let a = 10;
+let b = 5;
+console.log(a + b);
+console.log(!(a == b));
+
+let c = "6";
+let d = 6;
+console.log(c === d);
+
+console.log(0 === "");
+
+const IsSnowing = false;
+IsSnowing ? console.log("Está nevando") : console.log("No está nevando");
+//----------------------------------------------------------------------------------------
+let miNombre = "Jean";
+let saludos = "Hola, ";
+let avion = saludos + miNombre + "!";
+let correo = "jeean0910@gmail.com";
+console.log(avion);
+console.log(avion.length);
+console.log(avion[10]);
+console.log(`hola ${miNombre} tu correo es ${correo}.`);
+//===============================================================||
+arrays;
+//===============================================================||
+let myarray = [];
+//------agregar elementos al final-------//
+myarray.push(1);
+myarray.push(2);
+myarray.push(3);
+console.log(myarray);
+//-------eliminar ultimo elemento------//
+myarray.pop();
+console.log(myarray);
+//-------eliminar primer elemento-------//
+myarray.shift();
+console.log(myarray);
+//agregar elementos al inicio
+myarray.unshift(1);
+console.log(myarray);
+//length (ver longitud del conjunto)
+console.log(myarray.length);
+//borrar contenido de conjunto
+myarray = [];
