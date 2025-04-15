@@ -65,7 +65,12 @@ console.log(myarray.length);
 //borrar contenido de conjunto
 myarray = [];
 my array.length=0 //alternativa
-//seleccionar parte del conjunto
+//seleccionar rango del conjunto
 let myarray =[1,2,3,4,5,6,7,8,9,10]
 let mynewarray=myarray.slice(0,8) //del elemento 0 al 8 sin tener en cuenta elment 8
 console.log(mynewarray)
+// eliminar rango del conjunto
+let myarray2=["uno","dos","tres","cuatro",5]
+myarray2.splice(0,2,"nuevo elemento")
+console.log(myarray2)
+
