@@ -64,3 +64,8 @@ console.log(myarray);
 console.log(myarray.length);
 //borrar contenido de conjunto
 myarray = [];
+my array.length=0 //alternativa
+//seleccionar parte del conjunto
+let myarray =[1,2,3,4,5,6,7,8,9,10]
+let mynewarray=myarray.slice(0,8) //del elemento 0 al 8 sin tener en cuenta elment 8
+console.log(mynewarray)
