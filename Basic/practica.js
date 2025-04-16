@@ -73,4 +73,12 @@ console.log(mynewarray)
 let myarray2=["uno","dos","tres","cuatro",5]
 myarray2.splice(0,2,"nuevo elemento")
 console.log(myarray2)
-
+//crear un set.
+let nuevoset = new Set(["hola",2,3,4,5,6])
+console.log (nuevoset)
+//añadir elemento al final del conjunto
+nuevoset.add ("ciao")
+console.log(nuevoset)
+//eliminar elemento
+nuevoset.delete ("ciao")
+console.log(nuevoset)
